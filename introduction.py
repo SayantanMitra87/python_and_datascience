@@ -120,7 +120,7 @@ def friends_of_friend_ids(user):
                    and not_friends(user, foaf))
 
 # TODO: Commented out, while this errors out.
-print friends_of_friend_ids(users[3])
+# print friends_of_friend_ids(users[3])
 
 interests = [
     (0, "Hadoop"), (0, "Big Data"), (0, "HBase"), (0, "Java"), (0, "Spark"), (0, "Storm"), (0, "Cassandra"),
